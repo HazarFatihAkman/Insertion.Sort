@@ -27,3 +27,6 @@
 * n-1 : 2, 3, 5, 8, 7, 9, 4, 15, 6
 * n-2 : 2, 3, 4, 8, 7, 9, 5, 15, 6
 * n-3 : 2, 3, 4, 5, 7, 9, 8, 15, 6
+
+### Output
+![Screenshot 2025-07-03 at 1 10 36 pm](https://github.com/user-attachments/assets/7cf9f15a-8256-4333-9d6a-0c61c2ed1a18)
