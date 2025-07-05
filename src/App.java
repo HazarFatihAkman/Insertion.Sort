@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -23,7 +24,7 @@ public class App {
         arr = selection_sort(arr);
 
         // Print sorted arr
-        print_arr(arr);
+        System.out.println(Arrays.toString(arr));
 
         sc.close();
     }
@@ -44,16 +45,5 @@ public class App {
         }
 
         return arr;
-    }
-
-    public static void print_arr(int[] arr) {
-        System.out.print("Selection sorted array: [");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
-            if (i < arr.length - 1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println("]");
     }
 }
